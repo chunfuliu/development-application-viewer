@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="./favicon.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Bike Share Toronto Availability</title>
+	
+		<link href="./_app/immutable/assets/2.tpuuiAyk.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.ctVmV8u3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.BhELojFu.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.BvLojk_z.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.CEo1b1ZI.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.BQJOlMnr.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.C3bVIIRG.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.DVBkXiou.js">
+	<meta name="description" content="Visualizing Toronto's Development Applications">
+	<meta name="author" content="Michael Liu">
+
+	<meta property="og:title" content="Development Application Information" />
+	<meta name="og:description" content="Visualizing Toronto's Development Applications" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://chunfuliu.github.io/development-application-viewer/" />
+	<meta property="og:image" content="https://chunfuliu.github.io/development-application-viewer/web-card.png" />
+	<meta property="og:locale" content="en_CA">
+</head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XB09CWTEWB"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+	gtag('config', 'G-XB09CWTEWB');
+</script>
+
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">  <main class="svelte-d5k1wg"><div id="map" class="map svelte-d5k1wg"></div> <div class="info-panel svelte-d5k1wg"><h1 class="svelte-d5k1wg" data-svelte-h="svelte-1xkqu6j">Application Information Centre</h1> <p class="svelte-d5k1wg" data-svelte-h="svelte-1reskel">Last Updated: July 31, 2024</p>  <div class="buttons-box svelte-d5k1wg"><h3 class="svelte-d5k1wg" data-svelte-h="svelte-p3oodj">Filter By Application Type</h3> <button class="application-button svelte-d5k1wg" style="background-color: #1e3765; color: white">ALL</button> <button class="application-button svelte-d5k1wg" style="background-color: ; color: black">OPA &amp; ZBA</button><button class="application-button svelte-d5k1wg" style="background-color: ; color: black">SITE PLAN</button><button class="application-button svelte-d5k1wg" style="background-color: ; color: black">DRAFT CONDO</button><button class="application-button svelte-d5k1wg" style="background-color: ; color: black">SUBDIVISION</button><button class="application-button svelte-d5k1wg" style="background-color: ; color: black">PL</button> <button class="application-button svelte-d5k1wg" style="background-color: ; color: black">MV</button> <button class="application-button svelte-d5k1wg" style="background-color: ; color: black">CO</button> <br class="svelte-d5k1wg">  <h3 class="svelte-d5k1wg" data-svelte-h="svelte-9tuc0l">Filter By Date</h3> <button class="application-button svelte-d5k1wg" style="background-color: ; color: 'black'">1 Month</button><button class="application-button svelte-d5k1wg" style="background-color: ; color: 'black'">2 Months</button><button class="application-button svelte-d5k1wg" style="background-color: ; color: 'black'">3 Months</button><button class="application-button svelte-d5k1wg" style="background-color: ; color: 'black'">6 Months</button><button class="application-button svelte-d5k1wg" style="background-color: ; color: 'black'">12 Months</button></div> <h3 class="svelte-d5k1wg" data-svelte-h="svelte-hcv7yp"><b class="svelte-d5k1wg">Search Address</b></h3> <input placeholder="i.e. 100 St George St" class="svelte-d5k1wg" value=""> <input placeholder="i.e. 500, distance is in meters" class="svelte-d5k1wg" value=""> <br class="svelte-d5k1wg"> <button class="address-button svelte-d5k1wg" disabled>Search</button> </div> </main> 
+			
+			<script>
+				{
+					__sveltekit_1qkuqly = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/development-application-viewer"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.ctVmV8u3.js"),
+						import("./_app/immutable/entry/app.CEo1b1ZI.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+</body>
+
+</html>
