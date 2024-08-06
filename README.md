@@ -13,5 +13,6 @@ and past 5 years of: <br>
 <b>MV: Minor Variance <br>
 <b>CO: Consent (Sever Lots) <br>
 
+https://chunfuliu.github.io/development-application-viewer/
 
 <image title = "Development Application" alt = "Dev App" src = "static/web-card.png">
